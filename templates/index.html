@@ -1,29 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalender Tool</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="../static/styles.css">
 </head>
 <body>
     <div class="calendar">
         <div class="week-navigation">
-            <button id="prev-week">&lt; KW zurück</button>
+            <button id="prev-week">&lt; Vorherige Woche</button>
             <h2 id="current-week"></h2>
-            <button id="next-week">KW vor &gt;</button>
+            <button id="next-week">Nächste Woche &gt;</button>
         </div>
         <div id="loading-overlay">
+            <div class="loading-spinner"></div>
             <div class="loading-message">Ihre Anfrage wird bearbeitet!</div>
         </div>
-
         <div class="week-days" id="week-days">
-            <!-- Weekdays will be dynamically inserted here -->
+            <!-- Wochentage werden dynamisch eingefügt -->
         </div>
         <div class="time-slots" id="time-slots">
-            <!-- Time slots will be dynamically inserted here -->
+            <!-- Zeitslots werden dynamisch eingefügt -->
         </div>
     </div>
-    <script src="./script.js"></script>
+    <script src="../static/script.js"></script>
 </body>
 </html>
