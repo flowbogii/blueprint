@@ -1,1 +1,1 @@
-web: gunicorn blueprint:app
+web: gunicorn server:app
