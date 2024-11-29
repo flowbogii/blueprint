@@ -1,0 +1,1 @@
+web: gunicorn blueprint:app
